@@ -97,7 +97,6 @@ class Presenter:
         data = list(self.model.poker_test.category_counts.values())
         data.append(self.model.poker_test.chi_squared)
         data.append(self.model.poker_test.x_square)
-        print(self.model.poker_test.x_square)
         self.view.poker_tab.set_test_results(data)
 
     def run_all_test(self):

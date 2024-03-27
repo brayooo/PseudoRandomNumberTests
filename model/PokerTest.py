@@ -72,6 +72,10 @@ class PokerTest:
         categories = list(map(self.classify_hand, hands))
         self.category_counts = Counter(categories)
 
+        # Asegúra que el valor de 'Quintillas' sea 0 si no está presente
+        if 'Quintillas' not in self.category_counts:
+            self.category_counts['Quintillas'] = 0
+
         # Calcula el número total de manos
         total_hands = len(hands)
 

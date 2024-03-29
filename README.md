@@ -16,7 +16,7 @@ The project implements 5 tests: test of means, test of variance, KS test, Chi2 t
 
 2. In the terminal, type the following command:
 
-    `git clone https://github.com/brayooo/PseudoRandomNumberGenerator.git`
+    `git clone https://github.com/brayooo/PseudoRandomNumberTests.git`
     And wait for it to finish cloning the entire project from the repository
 
 
